@@ -31,8 +31,9 @@ Le projet `car-meter-detector.py` utilise la bibliothèque OpenCV pour détecter
 
 Exécutez le script Python `car-meter-detector.py` en vous assurant que vous avez une séquence d'images dans le même dossier que le script.
 
-```bash
-python car-meter-detector.py
+    ```bash
+
+    python car-meter-detector.py
 
 ## Fonctionnalités
 
