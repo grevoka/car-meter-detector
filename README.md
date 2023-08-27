@@ -2,7 +2,8 @@
 
 ## Description du projet
 
-Le projet `car-meter-detector.py` utilise la bibliothèque OpenCV pour détecter et suivre des plaques d'immatriculation dans une séquence d'images. Lorsqu'une plaque est détectée à moins d'une distance prédéfinie, un ensemble de photos est copié dans un dossier spécifique pour une analyse ultérieure.
+Le projet `car-meter-detector.py` utilise la bibliothèque OpenCV pour détecter et suivre des plaques d'immatriculation dans une séquence d'images. Lorsqu'une plaque est détectée à moins d'une distance prédéfinie
+, un ensemble de photos est copié dans un dossier spécifique pour une analyse ultérieure.
 
 ## Dépendances
 
@@ -62,70 +63,4 @@ Pour contribuer au projet :
 ## Licence
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations.
-
-
-# Car Meter Detector
-
-## Project Description
-
-The `car-meter-detector.py` project uses the OpenCV library to detect and track license plates in a sequence of images. When a plate is detected within a predefined distance, a set of photos is copied into a specific folder for further analysis.
-
-## Dependencies
-
-- Python 3.x
-- OpenCV (`cv2`)
-- Glob
-- Shutil
-- OS
-
-## Installation
-
-1. Clone the repository
-
-    ```bash
-    git clone [Repository URL]
-    ```
-
-2. Install the dependencies
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-Run the Python script `car-meter-detector.py` making sure you have a sequence of images in the same folder as the script.
-
-```bash
-python car-meter-detector.py
-
-## Features
-
-- License plate detection using contour detection.
-- Calculates the distance to the license plate based on real measurements and focal length.
-- Copies a set of photos into a specific folder when a plate is detected within a certain distance.
-
-## How it Works
-
-- The script uses OpenCV's contour detection method to locate license plates.
-- It then uses the properties of lens geometry to estimate the distance to the plate.
-- Finally, if the distance is below a predefined limit, a set of photos is copied into a target folder.
-
-## Contributing
-
-To contribute to this project:
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Authors
-
-- [William A](https://github.com/grevoka/)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
